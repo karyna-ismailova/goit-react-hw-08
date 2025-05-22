@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.listItem {
+  flex-basis: calc((100% - 48px) / 4);
+}
