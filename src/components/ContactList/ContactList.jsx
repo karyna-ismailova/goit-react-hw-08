@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import Contact from "../Contact/Contact";
 import s from "./ContactList.module.css";
-import { changeFilter } from "../../redux/filtersSlice";
+import { changeFilter } from "../../redux/filters/filtersSlice";
 import Loader from "../Loader/Loader";
 import {
   selectContacts,
