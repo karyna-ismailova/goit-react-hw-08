@@ -1,0 +1,44 @@
+.header {
+  background: transparent;
+  padding: 16px 46px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: center;
+}
+
+.link:hover {
+  color: #5c7ce6;
+}
+
+.active {
+  color: #7a9dff;
+}
+.btn {
+  background-color: white;
+  border: none;
+  padding: 0;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btn:hover {
+  color: #5c7ce6;
+}
+.userName {
+  color: #5c7ce6;
+  margin-right: 48px;
+}

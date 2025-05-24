@@ -11,7 +11,7 @@ const SearchBox = () => {
   };
   return (
     <div className={s.formWrapper}>
-      <span>Find contacts by name</span>
+      <span className={s.title}>Find contacts by name</span>
 
       <input
         className={s.input}

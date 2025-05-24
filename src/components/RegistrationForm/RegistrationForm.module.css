@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffe9ff, #e0e7ff);
+  padding: 32px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(200, 200, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.input {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.2s, box-shadow 0.2s;
+  margin-bottom: 18px;
+}
+
+.input:focus {
+  border-color: #7a9dff;
+  box-shadow: 0 0 0 3px rgba(122, 157, 255, 0.2);
+  outline: none;
+}
+
+.link {
+  font-size: 14px;
+  color: #7a9dff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+  text-align: center;
+}
+
+.link:hover {
+  color: #3d5afe;
+}
+
+.button {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background-color: #7a9dff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #5c7ce6;
+}
+.backbtn {
+  margin-top: 16px;
+  text-align: center;
+}
+.backButton {
+  margin-top: 16px;
+  color: #7a9dff;
+  font-weight: 600;
+
+  cursor: pointer;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+.backButton:hover {
+  color: #5c7ce6;
+}

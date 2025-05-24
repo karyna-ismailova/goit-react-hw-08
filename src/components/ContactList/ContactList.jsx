@@ -13,22 +13,9 @@ import {
 } from "../../redux/selectors";
 
 const ContactList = () => {
-  const contacts = useSelector(selectContacts);
-
-  const filter = useSelector(selectFilters);
   const filteredContact = useSelector(selectFilteredContacts);
   const error = useSelector(selectError);
   const loading = useSelector(selectLoading);
-
-  const dispatch = useDispatch();
-
-  const handleChangeQuery = (query) => {
-    dispatch(changeFilter(query));
-  };
-
-  const filteredData = contacts.filter((item) =>
-    item.name.toLowerCase().includes(filter.toLowerCase())
-  );
 
   return (
     <div>
